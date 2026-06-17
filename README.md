@@ -1,0 +1,2 @@
+# FBXNormalDisabler
+FBXのShapekey法線を無効化するツールです
