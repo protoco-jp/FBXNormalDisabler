@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="FBXNormalDisabler.vcxproj" Id="c99c13d5-9215-4b77-8b08-837f7806956e" />
+</Solution>
