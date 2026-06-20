@@ -6,8 +6,11 @@
 
 #include "ufbx/ufbx.h"
 
-EXPORT_API int AddTwoNumbers(int a, int b) {
+EXPORT_API int AddTwoNumbers(char *path, unsigned int len) {
+    if(path == NULL || len == 0){
+        return -1;
+    }
     ufbx_quat q1 = {0};
     ufbx_quat_dot(q1,q1);
-    return a + b;
+    return len;
 }   

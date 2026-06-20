@@ -4,4 +4,4 @@
 #define EXPORT_API
 #endif
 
-EXPORT_API int AddTwoNumbers(int a, int b);
+EXPORT_API int AddTwoNumbers(char *path, unsigned int len);
