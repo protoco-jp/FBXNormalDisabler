@@ -8,6 +8,7 @@
 #define PCH_H
 
 // プリコンパイルするヘッダーをここに追加します
+#include <stdio.h>
 #include "framework.h"
 #include "ufbx/ufbx.h"
 

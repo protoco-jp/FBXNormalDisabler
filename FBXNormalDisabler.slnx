@@ -3,6 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../FBXNormalDisablerTest/FBXNormalDisablerTest.vcxproj" Id="cbd6c4a7-eeac-4e9b-aa36-15ca37f57f06" />
   <Project Path="FBXNormalDisabler.vcxproj" Id="c99c13d5-9215-4b77-8b08-837f7806956e" />
 </Solution>
