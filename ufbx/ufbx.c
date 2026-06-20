@@ -1,11 +1,11 @@
 #ifndef UFBX_UFBX_C_INCLUDED
 #define UFBX_UFBX_C_INCLUDED
 
-#if defined(UFBX_HEADER_PATH)
-	#include UFBX_HEADER_PATH
-#else
-	#include "ufbx.h"
-#endif
+//#if defined(UFBX_HEADER_PATH)
+//	#include UFBX_HEADER_PATH
+//#else
+  #include "ufbx.h"
+//#endif
 
 // -- User configuration
 
@@ -42,9 +42,9 @@
 //   UFBX_EXTENSIVE_THREADING  Use threads for small inputs
 //   UFBX_MAXIMUM_ALIGNMENT    Maximum alignment used for allocation
 
-#if defined(UFBX_CONFIG_SOURCE)
-	#include UFBX_CONFIG_SOURCE
-#endif
+// #if defined(UFBX_CONFIG_SOURCE)
+//	  #include UFBX_CONFIG_SOURCE
+// #endif
 
 // -- Configuration
 

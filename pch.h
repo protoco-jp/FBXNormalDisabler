@@ -9,5 +9,6 @@
 
 // プリコンパイルするヘッダーをここに追加します
 #include "framework.h"
+#include "ufbx/ufbx.h"
 
 #endif //PCH_H
