@@ -4,4 +4,13 @@
 #define EXPORT_API
 #endif
 
-EXPORT_API int AddTwoNumbers(char *path, unsigned int len);
+typedef struct {
+  char name[64];
+} ShapeName;
+
+EXPORT_API int DisableFBXShapeNormal(
+    char *path,
+    unsigned int pathLen,
+    ShapeName *shapeNames,
+    unsigned int shapeCount
+);
