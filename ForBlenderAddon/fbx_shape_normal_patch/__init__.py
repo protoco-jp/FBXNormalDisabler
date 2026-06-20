@@ -1,3 +1,16 @@
+# Copyright (C) 2026 PROTOCO
+# Copyright (C) 2025 Blender Foundation
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# --- Modification Notice（改変の明記） ---
+# このスクリプトは、Blender標準のエクスポート処理（fbx_data_mesh_shapes_elements）
+# をコピーし、モンキーパッチ用に改変したコードを含んでいます。
+# Modified by PROTOCO on 2026-06-20
+
 bl_info = {
     "name": "FBX Shape Normal Patch",
     "author": "GitHub Copilot",
@@ -74,7 +87,8 @@ def _active_shape_keys(context):
         return obj.name, []
     return obj.name, [key.name for key in key_blocks[1:]]
 
-
+# Modified by PROTOCO on June 20, 2026
+# - Monkey patch for Blender's built-in export_fbx_bin.py
 def _patched_fbx_data_mesh_shapes_elements(root, me_obj, me, scene_data, fbx_me_tmpl, fbx_me_props):
     m = _fbx_bin_module
     if m is None:

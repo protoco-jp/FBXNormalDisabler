@@ -14,7 +14,6 @@ Breast_Big/Breast_Flat/HighHeelに連動して法線も変わって欲しい
 元のFBXを編集できるアバター作者向けのツールです  
 普通にBreast_Flatの法線再計算したいだけなら[Pefabulous by hai-vr](https://docs.hai-vr.dev/docs/products/prefabulous)の`Recalculate Normals`とか使ってください
 
-Blender版は元コード含むのでGPLv3 Unity版はMITです  
 
 ## 使い方
 BlenderAddon版(推奨)
